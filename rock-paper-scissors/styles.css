@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    width:500px;
+    margin: auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button {
+    background-color: #4681f4; 
+    color: white; 
+    font-size: 18px; 
+    padding: 8px 16px; 
+    border: none;
+    border-radius:5px; 
+    font-weight:700;
+    width:120px;
+    box-sizing: border-box;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:16px;
+}
+
+.result-div {
+    margin-top: 40px;
+}
+
+.score {
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 700;
+    padding: 2px 8px;
+    background-color: gray;
+    border: 2px solid black;
+    color: white;
+    border-radius: 3px;
+}
+
+.player-name {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.result-msg {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.result-div {
+    display: none;
+}
